@@ -34,18 +34,19 @@ export default function Form() {
   return (
     <div className="flex flex-col w-full min-h-screen items-center pt-14 gap-4">
       <h1 className="text-xl font-semibold">Crie sua mensagem</h1>
-      {!link ? (
+      { !  ligação ? (
         <>
           <div className="flex flex-col gap-1">
             <label>Pergunta</label>
             <input
-              placeholder = "Quer Casar comigo?"...
-              className=" placeholder:text-red-300  border-2  border-gray-300  rounded-md  px-4  py-1  w-96  bg-inherit ..."
+              placeholder = "Quer Casar comigo,anny❤?"    ...
+              className = "placeholder:text-red-300 border-2 border-gray-300 rounded-md px-4 py-1 w-9 bg-inherit ..."
               type="text"
               value={data.question}
               name="question"
               onChange={handleOnChange}
             />
+          
           </div>
           <div className="flex flex-col gap-1">
             <label>Mensagem</label>
