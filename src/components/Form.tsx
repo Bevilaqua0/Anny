@@ -39,8 +39,8 @@ export default function Form() {
           <div className="flex flex-col gap-1">
             <label>Pergunta</label>
             <input
-              placeholder="Namora comigo?..."
-              className="placeholder:text-red-300 border-2 border-gray-300 rounded-md px-4 py-1 w-96 bg-inherit"
+              placeholder = "Quer Casar comigo?"...
+              className=" placeholder:text-red-300  border-2  border-gray-300  rounded-md  px-4  py-1  w-96  bg-inherit ..."
               type="text"
               value={data.question}
               name="question"
